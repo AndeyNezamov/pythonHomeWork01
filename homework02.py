@@ -1,0 +1,6 @@
+coordinateX1 = int(input("Введите координату X1: "))
+coordinateY1 = int(input("Введите координату Y1: "))
+coordinateX2 = int(input("Введите координату X2: "))
+coordinateY2 = int(input("Введите координату Y1: "))
+longXY = float(pow((coordinateX2-coordinateX1),2)+pow((coordinateY2 - coordinateY1),2))
+print(longXY**0.5)

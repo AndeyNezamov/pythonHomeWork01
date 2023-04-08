@@ -1,0 +1,6 @@
+quarterNumber = int(input('Введите номер четверти: '))
+if quarterNumber == 1: print("X>0, Y>0")
+elif quarterNumber == 2: print("X<0, Y>0")
+elif quarterNumber == 3: print("X<0, Y<0")
+elif quarterNumber == 4: print("X>0, Y<0")
+else: print("Ввели неверную четверть")

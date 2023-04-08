@@ -1,0 +1,10 @@
+DayOfTheWeek = int(input("Введите день недели: "))
+Monday = 1
+if DayOfTheWeek == Monday: print("Понедельник")
+elif DayOfTheWeek == 2: print("Вторник")
+elif DayOfTheWeek == 3: print("Среда")
+elif DayOfTheWeek == 4: print("Четверг")
+elif DayOfTheWeek == 5: print("Пятница")
+elif DayOfTheWeek == 6: print("Суббота")
+elif DayOfTheWeek == 7: print("Воскресение")
+else: print("Нет такого дня")
